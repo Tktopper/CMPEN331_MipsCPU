@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/EXE_ALUMux2.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/EXE_ALUoutMux.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/EXE_ProgramCounter.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/EXE_f.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/ID_BranchProgramCounter.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/ID_JumpPCconcatination.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/ID_addrLS.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/ID_immLS.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/ID_rsrtequCheck.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/new/IF_ProgramCounterMux.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/new/WbMux.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v" \
+"../../../../CMPEN331_FinalProjectEC.srcs/sources_1/imports/CMPEN331_FinalProjectNoEC.srcs/sim_1/imports/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

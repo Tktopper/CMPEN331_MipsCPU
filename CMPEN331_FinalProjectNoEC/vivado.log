@@ -1,0 +1,342 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  4 11:14:14 2023
+# Process ID: 5852
+# Current directory: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12668 C:\Users\tannerkleintop\Desktop\CMPEN 311\CMPEN331_FinalProjectNoEC\CMPEN331_FinalProjectNoEC.xpr
+# Log file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/vivado.log
+# Journal file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC\vivado.jou
+# Running On: TANNERKLEINTOP, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 2945.395 ; gain = 351.086
+update_compile_order -fileset sources_1
+llaunch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TestBench_behav -key {Behavioral:sim_1:Functional:TestBench} -tclbatch {TestBench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TestBench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2990.715 ; gain = 33.340
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TestBench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2990.715 ; gain = 33.340
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/TestBench/datapath/Fwd_FwdMuxA_dp/fwdAout}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/TestBench/datapath/Fwd_FwdMuxB_dp}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEMEMpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fwd_FwdMuxA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Fwd_FwdMuxB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXEpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDpipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegrtMultiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/new/WbMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WbMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sim_1/imports/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3029.980 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 3029.980 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.pcAdder
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.IFIDpipelineReg
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegrtMultiplexer
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ImmediateExtender
+Compiling module xil_defaultlib.IDEXEpipeline
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUMux
+Compiling module xil_defaultlib.EXEMEMpipeline
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEMWBpipeline
+Compiling module xil_defaultlib.WbMux
+Compiling module xil_defaultlib.Fwd_FwdMuxA
+Compiling module xil_defaultlib.Fwd_FwdMuxB
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3029.980 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3029.980 ; gain = 0.000
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:22 . Memory (MB): peak = 3029.980 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: Datapath
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3824.785 ; gain = 411.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WbMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/new/WbMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WbMux' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/new/WbMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Fwd_FwdMuxA' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Fwd_FwdMuxA' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Fwd_FwdMuxB' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Fwd_FwdMuxB' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v:23]
+WARNING: [Synth 8-7129] Port mr[31] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[30] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[29] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[28] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[27] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[26] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[25] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[24] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[23] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[22] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[21] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[20] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[19] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[18] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[17] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[16] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[15] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[14] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[13] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[12] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[11] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[10] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[9] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mr[8] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[31] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[30] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[29] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[28] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[27] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[26] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[25] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[24] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[23] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[22] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[21] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[20] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[19] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[18] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[17] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[16] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[15] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[14] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[13] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[12] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[11] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[10] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[9] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[8] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[1] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[0] in module InstructionMemory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3947.406 ; gain = 534.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3948.770 ; gain = 535.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 3948.770 ; gain = 535.734
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 3948.770 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4055.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 4057.469 ; gain = 644.434
+40 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:44 . Memory (MB): peak = 4057.469 ; gain = 1011.562
+launch_runs synth_1 -jobs 2
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Dec  4 12:00:39 2023] Launched synth_1...
+Run output will be captured here: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.runs/synth_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4073.168 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 4073.168 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4073.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (inverted pins: WCLK) (RAMD32(x2)): 4 instances
+  RAM64M => RAM64M (inverted pins: WCLK) (RAMD64E(x4)): 11 instances
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 4073.168 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 14:53:19 2023...

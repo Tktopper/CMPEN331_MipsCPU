@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Nov 16 15:28:41 2023
+# Process ID: 14656
+# Current directory: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5128 C:\Users\tannerkleintop\Desktop\CMPEN 311\CMPEN331_Lab5\CMPEN331_Lab5.xpr
+# Log file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/vivado.log
+# Journal file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5\vivado.jou
+# Running On: TANNERKLEINTOP, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.xpr}
+launch_simulation
+source TestBench.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+create_project CMPEN331_FinalProjectNoEC {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC} -part xc7z010clg400-1
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WbMux.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sim_1/new/testbench.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/ALU.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v}}
+import_files -force
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sim_1/new/testbench.v}}]
+export_ip_user_files -of_objects  [get_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sim_1/new/testbench.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sim_1/new/testbench.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sim_1/new/testbench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source TestBench.tcl
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new
+file mkdir {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new}
+close [ open {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v} w ]
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxB.v}}
+close [ open {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v} w ]
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/new/Fwd_FwdMuxA.v}}
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+current_project CMPEN331_Lab5
+set_property part xc7z100ffg1156-2 [current_project]
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+set_property part xc7z035ffg900-3 [current_project]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+launch_simulation
+source TestBench.tcl
+set_property part xc7z020clg484-1 [current_project]
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+synth_design -top Datapath -part xc7z020clg484-1 -lint 
+synth_design -top Datapath -part xc7z020clg484-1 -lint 
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1
+set_property IOSTANDARD HSTL_I [get_ports [list {dinstOut[31]} {dinstOut[30]} {dinstOut[29]} {dinstOut[28]} {dinstOut[27]} {dinstOut[26]} {dinstOut[25]} {dinstOut[24]} {dinstOut[23]} {dinstOut[22]} {dinstOut[21]} {dinstOut[20]} {dinstOut[19]} {dinstOut[18]} {dinstOut[17]} {dinstOut[16]} {dinstOut[15]} {dinstOut[14]} {dinstOut[13]} {dinstOut[12]} {dinstOut[11]} {dinstOut[10]} {dinstOut[9]} {dinstOut[8]} {dinstOut[7]} {dinstOut[6]} {dinstOut[5]} {dinstOut[4]} {dinstOut[3]} {dinstOut[2]} {dinstOut[1]} {dinstOut[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list {dinstOut[31]} {dinstOut[30]} {dinstOut[29]} {dinstOut[28]} {dinstOut[27]} {dinstOut[26]} {dinstOut[25]} {dinstOut[24]} {dinstOut[23]} {dinstOut[22]} {dinstOut[21]} {dinstOut[20]} {dinstOut[19]} {dinstOut[18]} {dinstOut[17]} {dinstOut[16]} {dinstOut[15]} {dinstOut[14]} {dinstOut[13]} {dinstOut[12]} {dinstOut[11]} {dinstOut[10]} {dinstOut[9]} {dinstOut[8]} {dinstOut[7]} {dinstOut[6]} {dinstOut[5]} {dinstOut[4]} {dinstOut[3]} {dinstOut[2]} {dinstOut[1]} {dinstOut[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list {pc[31]} {pc[30]} {pc[29]} {pc[28]} {pc[27]} {pc[26]} {pc[25]} {pc[24]} {pc[23]} {pc[22]} {pc[21]} {pc[20]} {pc[19]} {pc[18]} {pc[17]} {pc[16]} {pc[15]} {pc[14]} {pc[13]} {pc[12]} {pc[11]} {pc[10]} {pc[9]} {pc[8]} {pc[7]} {pc[6]} {pc[5]} {pc[4]} {pc[3]} {pc[2]} {pc[1]} {pc[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list {wdestReg[4]} {wdestReg[3]} {wdestReg[2]} {wdestReg[1]} {wdestReg[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list {wdo[31]} {wdo[30]} {wdo[29]} {wdo[28]} {wdo[27]} {wdo[26]} {wdo[25]} {wdo[24]} {wdo[23]} {wdo[22]} {wdo[21]} {wdo[20]} {wdo[19]} {wdo[18]} {wdo[17]} {wdo[16]} {wdo[15]} {wdo[14]} {wdo[13]} {wdo[12]} {wdo[11]} {wdo[10]} {wdo[9]} {wdo[8]} {wdo[7]} {wdo[6]} {wdo[5]} {wdo[4]} {wdo[3]} {wdo[2]} {wdo[1]} {wdo[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list {wr[31]} {wr[30]} {wr[29]} {wr[28]} {wr[27]} {wr[26]} {wr[25]} {wr[24]} {wr[23]} {wr[22]} {wr[21]} {wr[20]} {wr[19]} {wr[18]} {wr[17]} {wr[16]} {wr[15]} {wr[14]} {wr[13]} {wr[12]} {wr[11]} {wr[10]} {wr[9]} {wr[8]} {wr[7]} {wr[6]} {wr[5]} {wr[4]} {wr[3]} {wr[2]} {wr[1]} {wr[0]}]]
+file mkdir {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new}
+close [ open {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc}}
+set_property target_constrs_file {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property IOSTANDARD HSTL_I [get_ports [list {dinstOut[31]} {dinstOut[30]} {dinstOut[29]} {dinstOut[28]} {dinstOut[27]} {dinstOut[26]} {dinstOut[25]} {dinstOut[24]} {dinstOut[23]} {dinstOut[22]} {dinstOut[21]} {dinstOut[20]} {dinstOut[19]} {dinstOut[18]} {dinstOut[17]} {dinstOut[16]} {dinstOut[15]} {dinstOut[14]} {dinstOut[13]} {dinstOut[12]} {dinstOut[11]} {dinstOut[10]} {dinstOut[9]} {dinstOut[8]} {dinstOut[7]} {dinstOut[6]} {dinstOut[5]} {dinstOut[4]} {dinstOut[3]} {dinstOut[2]} {dinstOut[1]} {dinstOut[0]}]]
+set_property IOSTANDARD HSTL_I [get_ports [list clk]]
+set_property IOSTANDARD HSTL_I [get_ports [list wm2reg]]
+set_property IOSTANDARD HSTL_I [get_ports [list wwreg]]
+set_property SEVERITY
+set_property SEVERITY (warning) [get_drc_checks UCIO-1]
+set_property SEVERITY {warning} [get_drc_checks UCIO-1]
+save_constraints
+export_ip_user_files -of_objects  [get_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc}}
+file delete -force {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/constrs_1/new/test.xdc}
+refresh_design
+set_property SEVERITY {warning} [get_drc_checks UCIO-1]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+update_compile_order -fileset sources_1
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+refresh_design
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_Lab5
+refresh_design
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+refresh_design
+current_project CMPEN331_Lab5
+close_sim
+launch_simulation
+source TestBench.tcl
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+current_project CMPEN331_Lab5
+close_sim
+launch_simulation
+source TestBench.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+current_project CMPEN331_Lab5
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_FinalProjectNoEC
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_Lab5
+launch_simulation
+current_project CMPEN331_FinalProjectNoEC
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+launch_simulation
+source TestBench.tcl
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+refresh_design
+close_sim
+launch_simulation
+source TestBench.tcl
+add_bp {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v} 141
+remove_bps -file {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectNoEC/CMPEN331_FinalProjectNoEC.srcs/sources_1/imports/CMPEN331_Lab5.srcs/sources_1/imports/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v} -line 141
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+current_project CMPEN331_Lab5
+synth_design -top Datapath -part xc7z020clg484-1 -lint 
+current_project CMPEN331_FinalProjectNoEC
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+close_sim
+launch_simulation
+source TestBench.tcl
+open_project {C:/Users/tannerkleintop/Desktop/CMPEN 311/331FinalProject/331FinalProject.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source CPU_Test.tcl
+close_sim
+launch_simulation
+source CPU_Test.tcl
+launch_simulation
+close_sim
+close_project
+close_sim
+close_project

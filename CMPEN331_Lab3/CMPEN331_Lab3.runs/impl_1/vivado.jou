@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Oct 16 16:43:47 2023
+# Process ID: 6768
+# Current directory: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab3/CMPEN331_Lab3.runs/impl_1
+# Command line: vivado.exe -log Datapath.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Datapath.tcl -notrace
+# Log file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab3/CMPEN331_Lab3.runs/impl_1/Datapath.vdi
+# Journal file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab3/CMPEN331_Lab3.runs/impl_1\vivado.jou
+# Running On: TANNERKLEINTOP, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+source Datapath.tcl -notrace

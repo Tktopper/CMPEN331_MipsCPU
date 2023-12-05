@@ -1,0 +1,991 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov  1 08:42:24 2023
+# Process ID: 19348
+# Current directory: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7976 C:\Users\tannerkleintop\Desktop\CMPEN 311\CMPEN331_Lab4\CMPEN331_Lab4.xpr
+# Log file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/vivado.log
+# Journal file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4\vivado.jou
+# Running On: TANNERKLEINTOP, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:25 . Memory (MB): peak = 2972.406 ; gain = 367.719
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+close_project
+create_project CMPEN331_Lab5 {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5} -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 3008.480 ; gain = 0.000
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.sim/sim_1/behav/xsim/glbl.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/ALU.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/utils_1/imports/synth_1/Datapath.dcp} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sim_1/imports/CMPEN331_Lab3/TestBench.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.runs/synth_1/Datapath.dcp}}
+import_files -force
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project CMPEN331_Lab5 {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5} -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3014.352 ; gain = 0.000
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/ALUMux.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/ALU.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/MEMWBpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/DataMemory.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/new/EXEMEMpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/pcAdder.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ControlUnit.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/IDEXEpipeline.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/IFIDpipelineReg.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ProgramCounter.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/RegrtMultiplexer.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/Datapath.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/RegisterFile.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/ImmediateExtender.v} {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sources_1/imports/new/InstructionMemory.v}}
+import_files -force
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab4/CMPEN331_Lab4.srcs/sim_1/imports/CMPEN331_Lab3/TestBench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new
+file mkdir {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new}
+close [ open {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v} w ]
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v}}
+close [ open {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v} w ]
+add_files {{C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3818.992 ; gain = 396.566
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (6#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+WARNING: [Synth 8-7071] port 'wdestReg' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-7071] port 'wbData' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-7071] port 'wwreg' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-7071] port 'clk' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-7023] instance 'RegisterFile_db' of module 'RegisterFile' has 8 connections declared, but only 4 given [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (9#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (11#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (12#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (13#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (14#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WritebackMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WritebackMux' (15#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:160]
+INFO: [Synth 8-6157] synthesizing module 'ForwardMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardMux' (16#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fqa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:160]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fwa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:160]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'qa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:160]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:161]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fqb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:161]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fwb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:161]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'qb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:161]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3917.074 ; gain = 494.648
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 7 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 3917.074 ; gain = 864.547
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3921.223 ; gain = 3.180
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'fwa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'fwb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'ors' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'ort' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3921.223 ; gain = 3.180
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3921.223 ; gain = 3.180
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 3943.160 ; gain = 21.938
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'fwa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'fwb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'ors' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+ERROR: [Synth 8-11365] for the instance 'controlUnit_db' of module 'ControlUnit' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22', named port connection 'ort' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:99]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3943.160 ; gain = 21.938
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 3943.160 ; gain = 21.938
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3947.789 ; gain = 4.629
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+WARNING: [Synth 8-689] width (5) of port connection 'wreg' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-689] width (5) of port connection 'm2reg' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-689] width (5) of port connection 'wmem' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+WARNING: [Synth 8-689] width (5) of port connection 'aluc' does not match port width (4) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:100]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+ERROR: [Synth 8-349] instance 'cu_dp' of module 'ControlUnit' passed 20 connections, but takes just 8 [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3947.789 ; gain = 4.629
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 4 Warnings, 0 Critical Warnings and 14 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 3947.789 ; gain = 4.629
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-83] Releasing license: Synthesis
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3947.789 ; gain = 0.000
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3947.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'aluc' does not match port width (4) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+WARNING: [Synth 8-689] width (4) of port connection 'regrt' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (6#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+ERROR: [Synth 8-11365] for the instance 'RegisterFile_db' of module 'RegisterFile' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23', named port connection 'fqa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+ERROR: [Synth 8-11365] for the instance 'RegisterFile_db' of module 'RegisterFile' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23', named port connection 'fqb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'wdestReg' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'wbData' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'wwreg' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'clk' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'qa' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7071] port 'qb' of module 'RegisterFile' is unconnected for instance 'RegisterFile_db' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+WARNING: [Synth 8-7023] instance 'RegisterFile_db' of module 'RegisterFile' has 8 connections declared, but only 2 given [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:104]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3947.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 10 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3947.789 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3947.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'aluc' does not match port width (4) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+WARNING: [Synth 8-689] width (4) of port connection 'regrt' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (6#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'wwreg' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:105]
+WARNING: [Synth 8-689] width (32) of port connection 'clk' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:105]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (9#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (11#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (12#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (13#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (14#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WritebackMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WritebackMux' (15#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ForwardMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardMux' (16#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (17#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3947.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Nov  1 09:39:33 2023
+| Host         : TANNERKLEINTOP running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-5  | 1            | 0        |
+| ASSIGN-10 | 5            | 0        |
+| INFER-1   | 1            | 0        |
+| INFER-2   | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for r_reg. 
+RTL Name 'r_reg', Hierarchy 'ALU', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v', Line 44.
+WARNING: [Synth 37-75] [INFER-2]Case statement items not fully specified and does not have a default item. 
+Hierarchy 'ALU', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v', Line 41.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'em2reg' are not read. First unused bit index is 0. 
+RTL Name 'em2reg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'ewreg' are not read. First unused bit index is 0. 
+RTL Name 'ewreg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'mwreg' are not read. First unused bit index is 0. 
+RTL Name 'mwreg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'mr' are not read. First unused bit index is 0. 
+RTL Name 'mr', Hierarchy 'DataMemory', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v', Line 24.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'aluc' are not set. First unset bit index is 1. 
+RTL Name 'aluc', Hierarchy 'Datapath', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v', Line 75.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'pc' are not read. First unused bit index is 0. 
+RTL Name 'pc', Hierarchy 'InstructionMemory', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v', Line 24.
+INFO: [Synth 37-85] Total of 8 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.039 . Memory (MB): peak = 3947.789 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4063.488 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 4063.488 ; gain = 115.699
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: Datapath
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 4063.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+WARNING: [Synth 8-689] width (1) of port connection 'aluc' does not match port width (4) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+WARNING: [Synth 8-689] width (4) of port connection 'regrt' does not match port width (1) of module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'wwreg' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:105]
+WARNING: [Synth 8-689] width (32) of port connection 'clk' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:105]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WritebackMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WritebackMux' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ForwardMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardMux' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (0#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4063.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4063.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4063.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 4063.488 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4073.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 4095.016 ; gain = 31.527
+37 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 4095.016 ; gain = 31.527
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEMEMpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXEpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDpipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegrtMultiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WritebackMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sim_1/imports/CMPEN331_Lab3/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4116.324 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'aluc' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:101]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'rs' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:105]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.pcAdder
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.IFIDpipelineReg
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegrtMultiplexer
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ImmediateExtender
+Compiling module xil_defaultlib.IDEXEpipeline
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUMux
+Compiling module xil_defaultlib.EXEMEMpipeline
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEMWBpipeline
+Compiling module xil_defaultlib.WritebackMux
+Compiling module xil_defaultlib.ForwardMux
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 4116.324 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TestBench_behav -key {Behavioral:sim_1:Functional:TestBench} -tclbatch {TestBench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TestBench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 4118.473 ; gain = 2.148
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TestBench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 4118.473 ; gain = 2.148
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 4166.391 ; gain = 44.953
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (6#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'wwreg' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:106]
+WARNING: [Synth 8-689] width (32) of port connection 'clk' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:106]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (9#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (11#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (12#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (13#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (14#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WritebackMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WritebackMux' (15#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ForwardMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardMux' (16#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (17#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4255.996 ; gain = 134.559
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Nov  1 09:48:39 2023
+| Host         : TANNERKLEINTOP running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-10 | 5            | 0        |
+| INFER-1   | 1            | 0        |
+| INFER-2   | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for r_reg. 
+RTL Name 'r_reg', Hierarchy 'ALU', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v', Line 44.
+WARNING: [Synth 37-75] [INFER-2]Case statement items not fully specified and does not have a default item. 
+Hierarchy 'ALU', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v', Line 41.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'em2reg' are not read. First unused bit index is 0. 
+RTL Name 'em2reg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'ewreg' are not read. First unused bit index is 0. 
+RTL Name 'ewreg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'mwreg' are not read. First unused bit index is 0. 
+RTL Name 'mwreg', Hierarchy 'ControlUnit', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v', Line 29.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'mr' are not read. First unused bit index is 0. 
+RTL Name 'mr', Hierarchy 'DataMemory', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v', Line 24.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'pc' are not read. First unused bit index is 0. 
+RTL Name 'pc', Hierarchy 'InstructionMemory', File 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v', Line 24.
+INFO: [Synth 37-85] Total of 7 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 4273.508 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4386.539 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 4386.539 ; gain = 265.102
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'TestBench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEMEMpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDEXEpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFIDpipelineReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmediateExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEMWBpipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegrtMultiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WritebackMux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sim_1/imports/CMPEN331_Lab3/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4386.539 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'rs' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:106]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.pcAdder
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.IFIDpipelineReg
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegrtMultiplexer
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ImmediateExtender
+Compiling module xil_defaultlib.IDEXEpipeline
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUMux
+Compiling module xil_defaultlib.EXEMEMpipeline
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEMWBpipeline
+Compiling module xil_defaultlib.WritebackMux
+Compiling module xil_defaultlib.ForwardMux
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 4386.539 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TestBench_behav -key {Behavioral:sim_1:Functional:TestBench} -tclbatch {TestBench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source TestBench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TestBench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 4386.539 ; gain = 0.000
+synth_design -top Datapath -part xc7z010clg400-1 -lint 
+Command: synth_design -top Datapath -part xc7z010clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 4386.539 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ProgramCounter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (2#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/pcAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFIDpipelineReg' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFIDpipelineReg' (4#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IFIDpipelineReg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ControlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMultiplexer' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMultiplexer' (6#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegrtMultiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/RegisterFile.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'wwreg' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:106]
+WARNING: [Synth 8-689] width (32) of port connection 'clk' does not match port width (1) of module 'RegisterFile' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:106]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/ImmediateExtender.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IDEXEpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXEpipeline' (9#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/IDEXEpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUMux' (11#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/ALUMux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEMpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEMpipeline' (12#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/EXEMEMpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (13#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMWBpipeline' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWBpipeline' (14#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/new/MEMWBpipeline.v:23]
+INFO: [Synth 8-6157] synthesizing module 'WritebackMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'WritebackMux' (15#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/WritebackMux.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:166]
+INFO: [Synth 8-6157] synthesizing module 'ForwardMux' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardMux' (16#1) [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fqa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:166]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fwa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:166]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxa_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'qa' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:166]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:167]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fqb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:167]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'fwb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:167]
+ERROR: [Synth 8-11365] for the instance 'ForwardMuxb_db' of module 'ForwardMux' declared at 'C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/new/ForwardMux.v:22', named port connection 'qb' does not exist [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:167]
+ERROR: [Synth 8-6156] failed synthesizing module 'Datapath' [C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_Lab5/CMPEN331_Lab5.srcs/sources_1/imports/sources_1/imports/new/Datapath.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4386.539 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 4 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 4386.539 ; gain = 0.000
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  1 09:53:35 2023...

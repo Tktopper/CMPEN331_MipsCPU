@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  4 15:05:51 2023
+# Process ID: 16136
+# Current directory: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectEC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17564 C:\Users\tannerkleintop\Desktop\CMPEN 311\CMPEN331_FinalProjectEC\CMPEN331_FinalProjectEC.xpr
+# Log file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectEC/vivado.log
+# Journal file: C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectEC\vivado.jou
+# Running On: TANNERKLEINTOP, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 1, Host memory: 8584 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/tannerkleintop/Desktop/CMPEN 311/CMPEN331_FinalProjectEC/CMPEN331_FinalProjectEC.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TestBench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/Datapath/IF_InstructionMemory/instOut}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/Datapath/WB_wbMux}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/TestBench/Datapath}} 
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+current_wave_config {Untitled 3}
+add_wave {{/TestBench/Datapath/WB_wbMux}} 
+close_sim
+launch_simulation
+source TestBench.tcl
+current_wave_config {Untitled 4}
+add_wave {{/TestBench/Datapath/WB_wbMux}} 
+relaunch_sim
+close_sim
+launch_simulation
+source TestBench.tcl
+current_wave_config {Untitled 5}
+add_wave {{/TestBench/Datapath/WB_wbMux}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/TestBench/Datapath/ID_ControlUnit/m2reg}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/TestBench/Datapath/ID_ControlUnit/op}} 
+current_wave_config {Untitled 5}
+add_wave {{/TestBench/Datapath/ID_ControlUnit/func}} 
+current_wave_config {Untitled 5}
+add_wave {{/TestBench/Datapath/IF_InstructionMemory/instOut}} 
+relaunch_sim
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+git commit
+git
