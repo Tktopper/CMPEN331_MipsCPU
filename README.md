@@ -1,18 +1,24 @@
-# CMPEN331---Computer-Organization-and-Design-32-bit-MIPS-CPU
+# CMPEN 331 - Computer Organization and Design: 32-bit MIPS CPU Design Project
 
-The purpose for these labs was to develop a 32 bit MIPS pipelined cpu. Where each lab broke the CPU into sections of the pipeline.
+# Overview
+This repository contains all the necessary files for the CMPEN 331 Computer Organization and Design project at Penn State University. 
+The project involves implementing the honor option section described in Lab 5, 
+focusing on the error-free generation of a bitstream through a Verilog design for a Zyboboard (XC7Z010-1CLG400C).
 
-Lab 3 required knowledge and developement of the first two stages of the pipeline.
-  -Instruction Fetch
-  -Instruction Decode
-  
-Lab 4 built onto this, adding the next two stages of the pipeline
-  -Execution
-  -Memory
+# Project Goals
+Implement a pipeline CPU using the Xilinx design package for FPGAs, as per specifications provided in Lab 3, Lab 4, and Lab 5.
+Ensure the design is synthesized, implemented, and generates a bitstream without errors.
+Address control hazards and implement delayed branching to optimize the pipeline CPU performance.
 
-Then for the final lab, Lab 5 added the final stage of the pipeline
-  -Writeback
+# Requirements
+Verilog design code for Zyboboard (XC7Z010-1CLG400C).
+AMD Xilinx Vivado
+Verilog Test Bench design code including the timescale 1ns/1ps directive.
+Waveforms as requested in the project specifications.
+Design schematics from Xilinx synthesis without any area constraints.
+Snapshots of I/O Planning and floor planning.
 
-Then for the final project, Forwarding was implemented to detect any hazards
-As extra credit, Stalling, Jump, and Branch instructions were all implemented to 
-complete a fully functioning MIPS cpu.
+# Extra Credit
+An optional part of the project includes implementing a pipeline CPU with detailed circuits as described in previous labs. 
+This includes the instruction fetch, decode, execution, memory access, and write-back stages,
+as well as handling control hazards and delayed branching, and jump instructions.
